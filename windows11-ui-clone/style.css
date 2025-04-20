@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+
+body{
+    /* object-fit: cover; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    background-image: url(Assets/images/Wallpaper.jpg);
+    background-size: 100%;
+    overflow: hidden;
+}
+.Taskbar{
+    max-width: 10%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    z-index: 120;
+    object-fit: cover;
+}
+.StartB{
+    position: absolute;
+    bottom: -4px;
+    left: 610px;
+    z-index: 120;
+}
+.Startmenu{
+    width: 100%;
+    position: absolute;
+    bottom: -780px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.Startmenu img{
+    border-radius: 8px;
+}
+.SearchB{
+    position: absolute;
+    bottom: -4px;
+    left: 690px;
+    z-index: 120;
+}
+.Searchmenu{
+    width: 100%;
+    position: absolute;
+    bottom: -780px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.Searchmenu img{
+    border-radius: 8px;
+}
+.SearchH{
+    position: absolute;
+    bottom: -250px;
+    left: 550px;
+    transition: all 0.5s ease-in;
+}
+.SearchH img{
+    border-radius: 8px;
+}
+.TaskviewB{
+    position: absolute;
+    bottom: -4px;
+    left: 770px;
+    z-index: 120;
+}
+.Taskview{
+    width: 100%;
+    position: absolute;
+    bottom: -250px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.Taskview img{
+    border-radius: 8px;
+}
+.WidgetsB{
+    position: absolute;
+    bottom: -4px;
+    left: 850px;
+    z-index: 120;
+}
+.Widgets{
+    position: absolute;
+    left: -750px;
+    bottom: 60px;
+    transition: all 0.5s ease;
+}
+.Widgets img{
+    border-radius: 12px;
+}
+.TeamsB{
+    position: absolute;
+    bottom: -4px;
+    left: 930px;
+    z-index: 120;
+}
+.Teams{
+    width: 100%;
+    position: absolute;
+    bottom: -550px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.Teams img{
+    border-radius: 8px;
+}
+.SettingsB{
+    position: absolute;
+    bottom: -4px;
+    left: 1000px;
+    z-index: 120;
+}
+.SettingsMin{
+    width: 100%;
+    position: absolute;
+    bottom: -800px;
+    text-align: center;
+    transition: none;
+}
+.SettingsMin img{
+    border-radius: 8px;
+}
