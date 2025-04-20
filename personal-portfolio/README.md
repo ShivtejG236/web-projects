@@ -35,6 +35,6 @@ A unique twist on a developer portfolio — this site showcases my projects with
   └── /fonts
 ```
 
-## 📸 Demo
+## 📸 Preview
 ![Homepage](https://github.com/user-attachments/assets/df8feddb-7d64-41dc-a1be-d55584762a26)
 ![Services Section](https://github.com/user-attachments/assets/211618f5-785d-41c9-aee7-7bb0097215ae)
