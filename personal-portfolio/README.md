@@ -29,7 +29,10 @@ A unique twist on a developer portfolio — this site showcases my projects with
 ├ cart.html
 ├ style.css
 ├ script.js
-├ 
+└ assets
+  ├── /images
+  ├── /videos
+  └── /fonts
 ```
 
 ## 📸 Demo
