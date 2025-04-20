@@ -24,9 +24,9 @@ windows11-ui-clone/
 ├── index.html
 ├── style.css
 ├── script.js
-├── /assets
-│   ├── /images
-│   └── /icons
+└── /assets
+   ├── /images
+   └── /icons
 ```
 
 ## 🛠️ Future Additions
