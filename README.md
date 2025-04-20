@@ -14,7 +14,7 @@ This project is a frontend clone of Windows 11's modern UI built entirely using 
 - Vanilla JavaScript
 
 ## 📸 Preview
-> _(Insert screenshots or link to video demo here)_
+![Screenshot](https://github.com/user-attachments/assets/5630c5f6-ab0a-481f-9839-9c50d16878ba)
 
 ## 🚀 Live Demo
 > _(Add GitHub Pages link if hosted)_
