@@ -16,11 +16,15 @@ This project is a frontend clone of Windows 11's modern UI built entirely using 
 ## 📸 Preview
 ![Screenshot](https://github.com/user-attachments/assets/5630c5f6-ab0a-481f-9839-9c50d16878ba)
 
-## 🚀 Live Demo
-> _(Add GitHub Pages link if hosted)_
-
 ## 📌 Folder Structure
-See structure section above...
+windows11-ui-clone/
+├── index.html
+├── README.md
+├── /assets
+│   ├── /icons        → For Windows-style system icons
+│   ├── /images       → App Windows & other stuff
+├── styles.css
+└── script.js
 
 ## 🛠️ Future Additions
 - Draggable windows
