@@ -21,8 +21,17 @@ A unique twist on a developer portfolio — this site showcases my projects with
 - Contact Form
 - Live Cart Page
 
-## 📸 Demo
-> _(Add screenshots and/or demo video link)_
+## File Structure
+```
+├ README.md
+├ index.html
+├ mainpage.html
+├ cart.html
+├ style.css
+├ script.js
+├ 
+```
 
-## 🚀 Try It Live
-> _(Add GitHub Pages or Netlify link)_
+## 📸 Demo
+![Homepage](https://github.com/user-attachments/assets/df8feddb-7d64-41dc-a1be-d55584762a26)
+![Services Section](https://github.com/user-attachments/assets/211618f5-785d-41c9-aee7-7bb0097215ae)
