@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartUp</title>
+</head>
+<body>
+      <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scroll bar */
+            height: 100%; /* Ensure full height */
+        }
+        
+        #myVideo {
+            width: 100%; /* Take full width of the viewport */
+            height: 100%; /* Take full height of the viewport */
+            object-fit: cover; /* Maintain aspect ratio and fill container */
+            z-index: 1;
+        }
+        /* #progress{
+            z-index: 2;
+        } */
+      </style>
+    <video id="myVideo" src="Videos/startup.mp4" autoplay muted>
+        <!-- <source src="video.mp4" type="video/mp4"> -->
+        Your browser does not support the video tag.
+        <!-- <progress id="progress" max="100"></progress> -->
+    </video>
+      
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var video = document.getElementById("myVideo");
+      
+          // When the video ends, redirect to mainpage.html
+          video.onended = function() {
+              window.location.href = "mainpage.html";
+          };
+      
+          // When the video finishes playing, pause it and trigger the onended event
+          video.onplaying = function() {
+              setTimeout(function() {
+                  video.pause();
+                  video.onended();
+              }, video.duration * 1000); // video.duration is in seconds, so we multiply by 1000 to get milliseconds
+          };
+      });
+    </script>
+</body>
+</html>
